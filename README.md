@@ -7,6 +7,7 @@ en concreto exportamos los `homes`de los usuarios tanto locales como de ldap.
 
 inicio de los contenedores:
 
+
 **LDAP** docker run --rm --name ldap -h ldap --net ldapnet -d edtasixm06/ldapserver:18group
 **HOSTPAM** docker run --rm --name samba -h samba --net ldapnet -it joterop/m06pam-cifs
 **SAMBA** docker run --rm --name samba -h samba --net ldapnet -it joterop/host-pam
