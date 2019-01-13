@@ -11,7 +11,7 @@ inicio de los contenedores:
 
 **HOSTPAM** docker run --rm --name host -h host --net ldapnet --privileged -it joterop/host-pam-samba
 
-**SAMBA** docker run --rm --name samba -h samba --net ldapnet -it joterop/host-pam
+**SAMBA** docker run --rm --name samba -h samba --net ldapnet -it joterop/samba-only
 
 
 
