@@ -1,4 +1,16 @@
-# 
+#### Configuración del acceso:
+
+* Usuarios UNIX:
+  - Samba requiere que los usuarios existan, ya sean locales o ldap, para ello el servidor debe tener los demonios `nscd` y `nslcd` activos-
+
+* Homes:
+  - Los usuarios locales ya tienen un home asignado cuando se crean, para los usuarios no locales, este debe de ser creado y administrado de la forma adecuada.
+   
+* Usuarios SAMBA:
+  - Para usar la orden `smbpasswd` los usuarios deben existir anteriormente, ya sean locales o de ldap.
+
+* El hostpam:
+   - En el servidor PAM debemos modificar el archivo `/etc/security/pam_mount.conf.xml` de cara a montar el recurso externo.
 
 /etc/samba/smb.conf
 ```
