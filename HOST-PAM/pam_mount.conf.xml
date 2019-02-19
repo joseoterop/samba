@@ -14,7 +14,7 @@
 
 		<!-- Volume definitions -->
 
-<volume user="*" fstype="cifs" server="172.18.0.4" path="%(USER)" mountpoint="~/%(USER)"
+<volume user="*" fstype="cifs" server="samba" path="%(USER)" mountpoint="~/%(USER)"
 />
 
 		<!-- pam_mount parameters: General tunables -->
