@@ -8,12 +8,12 @@ useradd pla
 useradd patipla
 useradd rock
 
-echo -e "smbpla\npla" | smbpasswd -a pla
-echo -e "smbpatipla\npatipla" | smbpasswd -a patipla
-echo -e "smbrock\nrock" | smbpasswd -a rock
-echo -e "smblila\nlila" | smbpasswd -a lila
-echo -e "smbpere\npere" | smbpasswd -a pere
-echo -e "smbpau\npau" | smbpasswd -a pau
-echo -e "smbmarta\nmarta" | smbpasswd -a marta
+echo -e "pla\npla" | smbpasswd -a pla
+echo -e "patipla\npatipla" | smbpasswd -a patipla
+echo -e "rock\nrock" | smbpasswd -a rock
+echo -e "lila\nlila" | smbpasswd -a lila
+echo -e "pere\npere" | smbpasswd -a pere
+echo -e "pau\npau" | smbpasswd -a pau
+echo -e "marta\nmarta" | smbpasswd -a marta
 
 
